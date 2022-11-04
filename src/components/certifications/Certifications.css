@@ -1,0 +1,36 @@
+.container.certs__container {
+    width: 40%;
+}
+.cert__avatar {
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+.cert__avatar img { border-radius: 1.5rem; }
+.cert {
+    user-select: none;
+    padding: 0;
+}
+.swiper-pagination-bullet {
+    background: white;
+}
+.swiper-pagination-bullet {
+    width: 0.7rem;
+    height: 0.7rem;
+}
+@media screen and (max-width: 1024px) {
+    .container.certs__container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container.certs__container {
+        width: var(--container-width-sm);
+    }
+
+    .cert__avatar {
+        width: 100%;
+    }
+}
